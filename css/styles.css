@@ -25,13 +25,36 @@
 	display: inline-block;
 }
 
-
-#movieIntro{
-	display: none;
-}
-
 .masfoot-nav>li>a:hover, .masfoot-nav>li>a:focus {
 text-decoration: none;
 background-color: #eee;
 color: #000000;
+}
+
+#shopIntro{
+	display:none;
+	font-size: 16px;
+	position: absolute;
+	width: 90%;
+	bottom: -120px;
+	text-shadow: 0 0 10px #B2B2B2;
+}
+
+#guessIntro{
+	display: none;
+	font-size: 16px;
+	position: absolute;
+	width: 90%;
+	bottom: -230px;
+	text-shadow: 0 0 10px #B2B2B2;
+}
+
+
+#movieIntro{
+	display: none;
+	font-size: 16px;
+	position: absolute;
+	width: 90%;
+	bottom: -210px;
+	text-shadow: 0 0 10px #B2B2B2;
 }

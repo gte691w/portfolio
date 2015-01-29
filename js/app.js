@@ -22,41 +22,50 @@ $(document).ready(function(){
 	$('.guessing').on('mouseenter',function(){
 		$('#guessImageGrey').hide();
 		$('#guessImageColor').show();
-		$('#guessHead').css('color','#cc324b')
+
+		$('#guessHead').css('text-shadow','0 0 10px #B2B2B2');
+		$('#guessIntro').show();
+
 
 	});
 
 	$('.guessing').on('mouseleave',function(){
 		$('#guessImageColor').hide();
 		$('#guessImageGrey').show();
-		$('#guessHead').css('color','#FFFFFF')
+		$('#guessHead').css('text-shadow','0 0 0');
+		$('#guessIntro').hide();
 
 	});
 
 	$('.shopping').on('mouseenter',function(){
 		$('#shopImageGrey').hide();
 		$('#shopImageColor').show();
-		$('#shopHead').css('color','red')
-
+		$('#shopHead').css('text-shadow','0 0 10px #B2B2B2');
+		$('#shopIntro').show();
 	});
 
 	$('.shopping').on('mouseleave',function(){
 		$('#shopImageColor').hide();
 		$('#shopImageGrey').show();
-		$('#shopHead').css('color','#FFFFFF')
+		$('#shopHead').css('color','#FFFFFF');
+		$('#shopHead').css('text-shadow','0 0 0');
+		$('#shopIntro').hide();
 
 	});
 
 	$('.movie').on('mouseenter',function(){
 		$('#movieImageGrey').hide();
 		$('#movieImageColor').show();
-		$('#movieHead').css('color','#0000FF')
+		$('#movieHead').css('text-shadow','0 0 10px #B2B2B2');
+		$('#movieIntro').show();
 	});
 
 	$('.movie').on('mouseleave',function(){
 		$('#movieImageColor').hide();
 		$('#movieImageGrey').show();
-		$('#movieHead').css('color','#FFFFFF')
+		$('#movieHead').css('color','#FFFFFF');
+		$('#movieHead').css('text-shadow','0 0 0');
+		$('#movieIntro').hide();
 
 	});
 
